@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans";
+    color: white;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: no-repeat url(https://slm-assets.secondlife.com/assets/14819738/lightbox/__panorama-purple-sunsets_.jpg?1471429317);
+   background-size: cover;
+   background-position: center center;
+}
+
+.form-container{
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 2% 3%;
+    border-radius: 20px;
+    box-shadow: 7px 7px 60px  #000;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+.control input{
+    position: relative;
+    top: -50px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+
+
+}
+.control input[type="submit"]
+{
+    background: crimson;
+    color: white;
+    font-size: 1.2em;
+    opacity: .65;
+    transition: opacity .3s ease;
+    transition: border-radius .35s ease-in-out;
+}
+
+.control input[type="submit"]:hover{
+    opacity: 1;
+    border-radius: 20px;
+}
+
+.link{
+    text-align: center;
+
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+    transition: opacity .3s ease;
+    position: relative;
+    top: -45px;
+
+}
+
+.link a:hover{
+    opacity: 1;
+}
+
+.head{
+    font-family: 'Lucida Grande';
+    font-size: 50px;
+}
+
+.control{
+    position: relative;
+    top: -3px;
+}
+
+.heading{
+    position: absolute;
+    top: -17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-family:'https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap' ;
+    color: #000;
+    opacity: 0.5;
+    transition: opacity .9s ease;
+    width: 100vw;
+
+}
+
+.heading:hover{
+    opacity: 1;
+}
+
+.user{
+    position: relative;
+    top: -45px;
+}
+.pswd{
+    position: relative;
+    top: -45px;
+}
+.rem{
+    position: relative;
+    top: -45px;
+}
+#name{
+    border-radius: 20px;
+}
+#psw{
+    border-radius: 20px;
+}
